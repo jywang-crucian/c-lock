@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+
+# 运行时数据（本地数据库与用户配置，不提交）
+data/
+
+# 备份文件
+*.bak
+
+# 虚拟环境
+.venv/
+venv/
+env/
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+
+# Claude Code 本地配置
+.claude/
+
+# 打包产物
+build/
+dist/
+*.spec
